@@ -1,0 +1,16 @@
+*{box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#f7f7f8;color:#111}
+.app{max-width:1000px;margin:24px auto;padding:12px}
+header h1{margin:0 0 12px;font-size:20px}
+.container{background:#fff;padding:16px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.06)}
+.search input{width:100%;padding:8px;margin-bottom:12px;border:1px solid #ddd;border-radius:4px}
+.controls{margin-bottom:12px}
+.controls button{margin-right:8px;padding:6px 10px;border-radius:6px;border:1px solid #ccc;background:#fff}
+.user-table{width:100%;border-collapse:collapse}
+.user-table th,.user-table td{padding:8px;border-bottom:1px solid #eee;text-align:left}
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.card{padding:12px;border:1px solid #eee;border-radius:6px;background:#fafafa}
+@media(max-width:600px){
+  .app{padding:8px}
+  header h1{font-size:16px}
+}
